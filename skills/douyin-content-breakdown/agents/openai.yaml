@@ -1,4 +1,4 @@
 interface:
-  display_name: "内容拆解与创作迁移"
-  short_description: "从链接或本地作品读取证据，分析结构与创作原理，整理可迁移制作要求"
-  default_prompt: "使用 $douyin-content-breakdown 拆解这个链接或本地作品，先检查读取范围，再给出有证据的结构分析与可迁移制作要求。"
+  display_name: "抖音图文与短视频拆解"
+  short_description: "拆解抖音图文与短视频，按内容选择传播方法，给出可迁移要求和下一条创作示例"
+  default_prompt: "使用 $douyin-content-breakdown 拆解这条抖音图文或短视频，说明实际读取范围，并给出三个不同的下一条创作方案。"
