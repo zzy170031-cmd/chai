@@ -36,7 +36,25 @@
 - 此处只提供入口，不表示本 skill 已核验全部正文。调用时用浏览器读取页面，记录核验日期及支持具体结论的段落。
 - 没有官方依据的流量池、指标排序、账号阈值等说法保留为来源主张，不写成当前规则。
 
-## 本次资料登记
+## 2026-09-23 外部研究增补
+
+以下仅登记本轮实际读到的指定正文，非全站／全仓审查。采用原创中文归纳与本技能设计检查，未复制外部Skill长段指令、脚本、模型或素材。公开可读不等于可以再分发；日后实质复制文件须锁定提交、文件范围、许可证及版权通知，模型、数据与实际带入依赖另核。网页日期不明处不将访问日期当发布日期。
+
+| ID | 原始来源与已读位置 | 支持范围／采用位置 | 不支持与例外 |
+|---|---|---|---|
+| S-D04 | [抖音算法及模型备案公示](https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/70c3d13a-73cf-403a-8ecf-a16f70887c21.html)，1.1–1.3基本原理、运行机制与场景；页面日期不明 | 官方说明；D01区分推荐、搜索与热榜 | 无视频级权重或热门阈值；不证明具体作品的实际流量来源或成因。行动前核验当前页面。 |
+| R03 | [Open University：How to write dialogue](https://media-podcast.open.ac.uk/feeds/a176-writing-plays/transcript/a176playwriting04.pdf)，3页访谈；[BFI：Writing tips from the top](https://www.bfi.org.uk/features/writing-tips-from-top)，Dialogue及Are your ideas landing段，2024-03-05 | 两个独立创作教育来源，非平台研究；支持人物声音、停顿、可说性和表达清晰检查，见短视频细读／输出结构 | 不证明抖音留存或播放提升；“意图与回应”“三案去专名对照”是本技能设计，不能归称原来源量表。对白可承载关系和节奏，不必每句推进情节。 |
+| R04 | [Smithsonian Museum on Main Street：Scripting](https://museumonmainstreet.org/sites/default/files/scripting.pdf)，印刷页4–5、8–15 | 创作教育工具包；脚本包含声音、视觉和行为，朗读检查、声画信息分工；见输出结构与短视频细读 | 不复制教材全文；不继承“总是越短越好”“静态必无聊”等绝对表述。未实际朗读不标实测；图文允许配乐及非顺序阅读。 |
+| R05 | [AVSCap作者项目页](https://nju-link.github.io/AVSCap/)，Abstract、Key Ideas、Evaluation Analysis、Error Analysis；[论文入口](https://arxiv.org/abs/2607.12820)，2026-07-14 | 南京大学等团队与快手Kling合作者的公开视频理解研究；只用已读项目页说明视觉／声音独立锚定、音画绑定及遗漏／错误绑定问题 | 非快手或抖音创作者分发规则；未复现评测，未验收本技能增益。未纳入其模型、数据或代码，不作部署许可结论。 |
+| E01 | [anyhui SKILL](https://github.com/anyhui/video-storyboard-gen-skill/blob/main/SKILL.md)，连续性门、输出契约；[LICENSE](https://github.com/anyhui/video-storyboard-gen-skill/blob/main/LICENSE) | 社区设计参考，MIT正文已核，限自有代码文档；仅归纳新方案台词时长匹配和可执行性检查 | 本轮未复制文件或运行CLI；主时间轴检查不排除音轨重叠。camera.md混淆变焦与焦点转移，未引入该术语表。 |
+| E02 | [Novoads analyze-video](https://github.com/novoads/agent-skills/blob/main/skills/analyze-video/SKILL.md)，Step 4及示例／Rules；[LICENSE](https://github.com/novoads/agent-skills/blob/main/LICENSE) | 社区设计参考；区分原片特定内容与可迁移表达，启发跨游戏映射；MIT正文已核，两版权主体为NOVO SpA及Caleb Kruse / Kruse Media LLC | 本轮未复制文件；不继承固定秒数、段数、字速、自动存库和远程生成。未来实质复制须保留两份版权告知。 |
+| E03 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper)，Usage、VAD及[MIT许可](https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE)；[PySceneDetect检测说明](https://www.scenedetect.com/docs/api/detectors.html)及[BSD-3-Clause许可](https://github.com/Breakthrough/PySceneDetect/blob/main/LICENSE)；[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)及[Apache-2.0许可](https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE) | 三个独立工具来源，只作为读取路径的可选候选；指定文档与代码许可已读 | 未安装、未做本机能力或中文游戏素材测试；所选版本、模型权重与发行件仍待核。ASR／OCR／切点均不等于完整观看或精确测量。 |
+
+本轮未取得足以新增官方事实的2026创作者大会细则正文；历史图文指南仅搜索可见的部分不纳入当前规则。既有S-D03按原适用范围保留。Vidi等研究的时间定位思路可作一般方法参考，但本轮已查Vidi仓库的CC BY-NC 4.0不支持将其直接列为默认商用组件。其他平台推荐规则、固定爆款公式、未经核实的目录许可和效果宣传不纳入。
+
+外部社区方法没有证明本技能的运行效果。新增方法先按原片证据使用，出现反例时修订；可选工具实际接入前按[读取路径](input-paths.md#使用候选前的有限检查)做针对性验证。此登记只保存公开来源与方法，不包含用户案例、私人文件路径或跨任务画像。
+
+## 本次用户资料登记
 
 记录来源标题、用户提供的位置、来源类型、更新日期、已读章节与区间、未读链接／图像／视频、具体主张、适用项目和核验状态。
 

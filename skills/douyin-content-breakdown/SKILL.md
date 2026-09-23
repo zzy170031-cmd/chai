@@ -17,11 +17,11 @@ description: 拆解面向抖音发布的图文与短视频，接收链接、本�
 
 按本次缺口读取参考，不一次加载全库：
 - 图文页序或视频表达：[形式与创作设计](references/formats-and-craft.md)。
-- 具体短视频片段的期待兑现、衔接、音画分工或跨游戏迁移：[短视频细读](references/short-video-close-reading.md)，只读相关小节；窄任务不启动全套分析。
+- 具体短视频片段的期待兑现、对白功能、音画联系或跨游戏迁移：[短视频细读](references/short-video-close-reading.md)，只读相关小节；窄任务不启动全套分析。
 - 分享动机、二创和共同创作：[UGC参与与传播](references/ugc-participation.md)。
 - 抖音推荐、热点和数据复盘：[抖音推荐与热点](references/douyin-distribution.md)。
 - 吸收新知识或核验主张：[来源清单与知识登记](references/source-register.md)。
-- 下一条示例及对外Excel：[输出结构](references/output-contract.md)。
+- 下一条示例、三案差异、对白可演性及对外Excel：[输出结构](references/output-contract.md)。
 - 按当前创作条件选择方案：[本次创作上下文](references/creator-context.md)。
 - 用户希望归纳或复用创作方法：[方法总结与复用](references/method-reuse.md)。
 
