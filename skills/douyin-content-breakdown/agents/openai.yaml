@@ -1,4 +1,4 @@
 interface:
   display_name: "抖音图文与短视频拆解"
   short_description: "拆解抖音图文与短视频，按内容选择传播方法，给出可迁移要求和下一条创作示例"
-  default_prompt: "使用 $douyin-content-breakdown 拆解这条抖音图文或短视频，说明实际读取范围，并给出三个不同的下一条创作方案。"
+  default_prompt: "使用 $douyin-content-breakdown 拆解[作品链接或本地素材]；原片范围[全片或指定部分]，目标游戏／题材[填写]；输出Excel及三条[短视频或图文]策划，篇幅[沿用原片完整展开或指定时长／页数]，保留指导、完整原创台词／文案及画面要求；未填写项请先提示确认。"
