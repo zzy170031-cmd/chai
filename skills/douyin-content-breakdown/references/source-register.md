@@ -42,7 +42,7 @@
 
 | ID | 原始来源与已读位置 | 支持范围／采用位置 | 不支持与例外 |
 |---|---|---|---|
-| S-D04 | [抖音算法及模型备案公示](https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/70c3d13a-73cf-403a-8ecf-a16f70887c21.html)，1.1–1.3基本原理、运行机制与场景；页面日期不明 | 官方说明；D01区分推荐、搜索与热榜 | 无视频级权重或热门阈值；不证明具体作品的实际流量来源或成因。行动前核验当前页面。 |
+| S-D04 | [抖音算法及模型备案公示](https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/70c3d13a-73cf-403a-8ecf-a16f70887c21.html)，1.1–1.3基本原理、运行机制与场景；2026-10-09重新读取这些正文，页面自身日期不明 | 官方说明；D01区分推荐、搜索与热榜，1.1.3明确推荐场景含图文和视频 | 无图文/视频各自权重或热门阈值；不证明具体作品的实际流量来源或成因。此核验日不是修订日，行动前仍查当前页面。 |
 | R03 | [Open University：How to write dialogue](https://media-podcast.open.ac.uk/feeds/a176-writing-plays/transcript/a176playwriting04.pdf)，3页访谈；[BFI：Writing tips from the top](https://www.bfi.org.uk/features/writing-tips-from-top)，Dialogue及Are your ideas landing段，2024-03-05 | 两个独立创作教育来源，非平台研究；支持人物声音、停顿、可说性和表达清晰检查，见短视频细读／输出结构 | 不证明抖音留存或播放提升；“意图与回应”“三案去专名对照”是本技能设计，不能归称原来源量表。对白可承载关系和节奏，不必每句推进情节。 |
 | R04 | [Smithsonian Museum on Main Street：Scripting](https://museumonmainstreet.org/sites/default/files/scripting.pdf)，印刷页4–5、8–15 | 创作教育工具包；脚本包含声音、视觉和行为，朗读检查、声画信息分工；见输出结构与短视频细读 | 不复制教材全文；不继承“总是越短越好”“静态必无聊”等绝对表述。未实际朗读不标实测；图文允许配乐及非顺序阅读。 |
 | R05 | [AVSCap作者项目页](https://nju-link.github.io/AVSCap/)，Abstract、Key Ideas、Evaluation Analysis、Error Analysis；[论文入口](https://arxiv.org/abs/2607.12820)，2026-07-14 | 南京大学等团队与快手Kling合作者的公开视频理解研究；只用已读项目页说明视觉／声音独立锚定、音画绑定及遗漏／错误绑定问题 | 非快手或抖音创作者分发规则；未复现评测，未验收本技能增益。未纳入其模型、数据或代码，不作部署许可结论。 |
@@ -57,6 +57,8 @@
 ## 本次用户资料登记
 
 记录来源标题、用户提供的位置、来源类型、更新日期、已读章节与区间、未读链接／图像／视频、具体主张、适用项目和核验状态。
+
+用户提供的游戏创作者教材可以启发独立的内容设计问题，但其账号运营比例、固定秒数、发布时间、推广费用与变现条件不进入本技能的平台规则层。若教材页面只显示月日而无年份，记录“年份未知”；只读正文时，不能把嵌入案例媒体也记为已审。公开仓库仅放原创归纳后的方法，不附用户提供的原文、受限链接或逐次作品档案。
 
 目录已读不等于正文已读。历史活动汇总可能包含当前入口与留档区；周期、话题、质量等级和奖励条件需要当前核对，不等于通用推流机制。
 
